@@ -10,7 +10,7 @@
 	<title class="pageTitle">Codes</title>
 	<meta name="description" content="One-time Passwords">
 
-	<link rel="shortcut icon" href="assets/appicon.png">
+	<link rel="shortcut icon" href="">
 
 	<!-- Smart App Banner -->
 	
@@ -37,7 +37,7 @@
 				</defs>
 			</svg>
 			
-				<a href="../" target="_self"><img class="headerIcon" src="assets/appicon.png"></a>
+				<a href="../" target="_self"><img class="headerIcon" src=""></a>
 			
 			<div class="divider"></div>
 		</div>
@@ -67,13 +67,34 @@
 <p><strong>A:</strong> Codes implements <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm">Time-based One-time Password algorithm</a>. This allows Codes to support second factor auth for most popular web services, like Google, Facebook, Microsoft, Twitter and so on.</p>
 
 <h2 id="q-how-is-my-data-stored">Q: How is my data stored?</h2>
-<p><strong>A:</strong> Codes store data localy in on-device Apple Keychain, data is encrypted and never leaves your device.</p>
+<p><strong>A:</strong> By default Codes store data localy in on-device Apple Keychain, data is encrypted and never leaves your device. Optionally you can choose to store selected accounts in iCloud keychain, this will enable access to this data from multiple devices.</p>
+
+<h2 id="q-how-can-i-control-the-storage-option-for-given-account">Q: How can I control the storage option for given account?</h2>
+<p><strong>A:</strong> Long press on account and choose “Store in iCloud” or “Store on Device” options from the menu.</p>
+
+<h2 id="q-what-happens-when-i-choose-store-on-device-option">Q: What happens when I choose “Store on Device” option?</h2>
+<p><strong>A:</strong> The account data will be copied to the device, all other devices will loose access to this account.</p>
+
+<h2 id="q-ive-selected-store-in-icloud-option-but-my-data-is-not-available-on-other-devices-what-should-i-do">Q: I’ve selected “Store in iCloud” option but my data is not available on other devices, what should I do?</h2>
+<p><strong>A:</strong> Codes uses iCloud Keychain, which means it should be enebled on your devices. iCloud keychain syncs automatically, there is no way to force it or check sync status. Usually data appears on other devices within seconds, but sometimes it can take longer. Use <a href="https://support.apple.com/en-us/HT203783">official troubleshooting guide</a> if needed.</p>
+
+<h2 id="q-what-happens-when-i-delete-account-which-is-stored-in-icloid">Q: What happens when I delete account which is stored in iCloid?</h2>
+<p><strong>A:</strong> The account data will be deleted from iCloud Keychain and all devices.</p>
 
 <h2 id="q-can-i-export-or-share-my-data-from-codes">Q: Can I export or share my data from Codes?</h2>
 <p><strong>A:</strong> Yes, long press on account and choose “Show QR Code”. Scan this QR code in Codes or other OTP app.</p>
 
+<h2 id="q-can-i-restrict-qr-codes-sharing">Q: Can I restrict QR codes sharing?</h2>
+<p><strong>A:</strong> Yes, you can enable/disable QR code sharing on per account basis. Choose the desired behaviour in Settings, new settings options affects only accounts added after the change was made.</p>
+
 <h2 id="q-can-i-edit-account-icon-in-codes">Q: Can I edit account icon in Codes?</h2>
 <p><strong>A:</strong> No. Icon is set automatically based on key words in account name. Icons are provided by <a href="https://fontawesome.com/icons?d=gallery&amp;s=brands&amp;m=free">Font Awesome</a>.</p>
+
+<h2 id="q-do-you-support-opening-otpauth-urls">Q: Do you support opening otpauth:// URLs?</h2>
+<p>No, but codes can detect otpauth:// URL in clipboard and autofill Manual Add dialog.</p>
+
+<h2 id="q-why-codes-is-free">Q: Why Codes is free?</h2>
+<p>It is hard enough to make people to use 2-FA in the first place, we don’t need another obstacle. All competitors apps are free as well. If you want to support future development you can use Tip Jar.</p>
 
 <h2 id="q-is-there-a-privacy-policy">Q: Is there a Privacy Policy</h2>
 <p><strong>A:</strong> <a href="/privacypolicy">Yes.</a></p>

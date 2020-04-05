@@ -33,7 +33,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Store your OTP Accounts
-    description                           : Add accounts by scanning QR codes, or enter the required details manually.
+    description                           : Add accounts by scanning QR codes, or enter the required details manually. On device or in iCloud.
     fontawesome_icon_name                 : boxes
 
   - title                                 : Contextual Menus
