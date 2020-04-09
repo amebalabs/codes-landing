@@ -8,9 +8,15 @@ include_in_header: true
 <br>
 
 ### `Latest`
+# **2020.3**
+`Apr 9, 2020`
+- 🎈 Light UI Refresh, long press Plus button to quickly access manual add option.
+- 🎈 Added Russian localization
+- 🐛 Fixed: 'Show QR Menu' toggle was mistakenly shown on Edit screen
+
 # **2020.2**
-`Apr 7, 2020`
-- 🎈Opt-in to store accounts in iCloud Keychain. In Settings choose between "All New" accounts will be stored in iCloud and only manually "Selected" accounts will be stored in iCloud.**\*** 
+`Apr 5, 2020`
+- 🎈 Opt-in to store accounts in iCloud Keychain. In Settings choose between "All New" accounts will be stored in iCloud and only manually "Selected" accounts will be stored in iCloud.**\*** 
 - 🎈 Restrict "Show QR Code" menu on per-account basis. Choose to enable this option during account creation, or set a default behaviour in Settings.
 - 🎈 Tip Jar. Toss a coin to your... developer!
 - ⚙️ Added FAQ link in Settings
