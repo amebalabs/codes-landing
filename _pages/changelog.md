@@ -8,6 +8,17 @@ include_in_header: true
 <br>
 
 ### `Latest`
+# **2020.4**
+`Sep 16, 2020`
+- 🎈 Search. Quickly find codes by account or service name
+- 🎈 iOS 14 Widgets
+- 🎈 Improved shortcuts: "Get Codes" shortcut now presents a custom UI and returns codes with formatting.
+
+# **2020.4**
+`Apr 15, 2020`
+
+Nothing new! We just fixed a couple of localization bugs and typos.
+
 # **2020.3**
 `Apr 9, 2020`
 - 🎈 Light UI Refresh, long press Plus button to quickly access manual add option.
